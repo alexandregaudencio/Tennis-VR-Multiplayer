@@ -636,7 +636,38 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5617658680855466151}
+    - targetCorrespondingSourceObject: {fileID: 1325463119263518852, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8114982949802497871}
+    - targetCorrespondingSourceObject: {fileID: 7259096604425848644, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8579573486818534805}
   m_SourcePrefab: {fileID: 100100000, guid: aa5945869c2fdd948aa7edd8f8f7fe75, type: 3}
+--- !u!1 &485791723853779620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1325463119263518852, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
+    type: 3}
+  m_PrefabInstance: {fileID: 1502264182516761120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8114982949802497871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485791723853779620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e19eaaf1c1cb24fa4797dab2da90e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  TriggerInputActionReference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  speedAttraction: 10
+  isPressing: 0
 --- !u!1 &1115150045257614550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1990822337597081334, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
@@ -693,6 +724,29 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1502264182516761120}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8098704366006453604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7259096604425848644, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
+    type: 3}
+  m_PrefabInstance: {fileID: 1502264182516761120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8579573486818534805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8098704366006453604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83e19eaaf1c1cb24fa4797dab2da90e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 0}
+  TriggerInputActionReference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  speedAttraction: 10
+  isPressing: 0
 --- !u!4 &8395701801306828054 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6943032332432731958, guid: aa5945869c2fdd948aa7edd8f8f7fe75,

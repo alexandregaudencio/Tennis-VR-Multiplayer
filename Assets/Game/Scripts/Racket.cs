@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class Racket : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Rigidbody body;
+
+    public float velocity;
+
+
+    private void Awake()
     {
-        
+        body = GetComponentInChildren<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public Vector3 Normal()
     {
+        return transform.position + transform.up;
+    }
+
+    private void Update()
+    {
+        velocity = body.velocity.magnitude;
         
     }
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawLine(transform.position, transform.position + transform.up*5);
+    }
+
+
+
 }
