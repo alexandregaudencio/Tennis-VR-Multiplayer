@@ -7,7 +7,7 @@ public class NetworkPlayer : MonoBehaviour
     public Transform head;
     public Transform leftHand;
     public Transform rightHand;
-    public PhotonView photonView;
+    private PhotonView photonView;
 
     private void Start()
     {
