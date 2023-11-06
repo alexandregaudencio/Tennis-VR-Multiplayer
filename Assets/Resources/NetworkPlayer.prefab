@@ -496,22 +496,22 @@ PrefabInstance:
     - target: {fileID: 4493381455205973217, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
         type: 3}
       propertyPath: m_PositionInput.m_Action.m_Id
-      value: 
+      value: 060427f2-eeff-4c0f-8eff-db5039062638
       objectReference: {fileID: 0}
     - target: {fileID: 4493381455205973217, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
         type: 3}
       propertyPath: m_RotationInput.m_Action.m_Id
-      value: 
+      value: 5369fe46-fb57-4ebe-b99a-ce587cafb7fe
       objectReference: {fileID: 0}
     - target: {fileID: 4493381455205973217, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
         type: 3}
       propertyPath: m_PositionInput.m_Action.m_Name
-      value: 
+      value: Position Input
       objectReference: {fileID: 0}
     - target: {fileID: 4493381455205973217, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
         type: 3}
       propertyPath: m_RotationInput.m_Action.m_Name
-      value: 
+      value: Rotation Input
       objectReference: {fileID: 0}
     - target: {fileID: 4493381455205973217, guid: aa5945869c2fdd948aa7edd8f8f7fe75,
         type: 3}
