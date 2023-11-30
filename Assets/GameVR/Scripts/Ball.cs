@@ -44,4 +44,18 @@ public class Ball : MonoBehaviour
 
 
 
+    public void Catch()
+    {
+        body.velocity = Vector3.zero;
+        body.useGravity = false;
+    }
+
+    public void Release()
+    {
+        body.useGravity = true;
+
+    }
+
+
+
 }

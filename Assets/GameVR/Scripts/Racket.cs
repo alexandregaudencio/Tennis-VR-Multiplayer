@@ -32,6 +32,7 @@ public class Racket : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (ballCollisionEffect == null) return;
         GameObject instantiatedEffect =   Instantiate(ballCollisionEffect, transform.position, transform.rotation);
         Destroy(instantiatedEffect, 1);
     }
