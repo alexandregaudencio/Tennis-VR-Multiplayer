@@ -1,2 +1,3 @@
 # Tennis-VR-Multiplayer
- Jogo de Tenins de mesa VR multiplayer usando PhotonEngine e Unity.
+A table tennis VR multiplayer game. Developed using Unity Engine for the Oculus Quest virtual reality headset, establishing connection via Photon PUN.
+
